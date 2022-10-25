@@ -7,7 +7,7 @@ random_list = [random.randint(0, 10) for x in range(0, 5)]  # List of 5 random n
 user_list = []  # Implement a list where will be user's input of numbers.
 
 for number in range(0, 5):  # For loop to input numbers to user's list.
-    number = (int(input('Please, enter 5 numbers from 0 to 10:\n')))
+    number = (int(input('Please, enter number from 0 to 10:\n')))
     user_list.append(number)
 
 # List comprehension that counts sums of the corresponding elements of the lists.
