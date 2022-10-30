@@ -1,4 +1,4 @@
-#User enters number; determine the percentage of positive and negative numbers. When input 0 - finish.
+# User enters number; determine the percentage of positive and negative numbers. When input 0 - finish.
 
 total = 0
 positive = 0

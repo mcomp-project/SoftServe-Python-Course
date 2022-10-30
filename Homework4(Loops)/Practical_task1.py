@@ -1,4 +1,5 @@
-#Write a program that calculates the sum of all even numbers between a and b (inclusive). The values ​​of a and b are entered by the user.
+# Write a program that calculates the sum of all even numbers between a and b (inclusive). The values ​​of a and b
+# are entered by the user.
 
 
 # Initialize values A, B and counter "total".
@@ -8,7 +9,7 @@ total = 0
 counter = 0 + valueA 
 	
 while counter <= valueB:
-	if (counter % 2 == 0):
+	if counter % 2 == 0:
 		print('{0}'.format(counter))
 		total = total + counter
 	counter += 1

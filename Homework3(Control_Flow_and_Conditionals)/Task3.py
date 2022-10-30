@@ -2,7 +2,7 @@
 # "negative two-digit", etc.
 
 number = int(input(f'Enter the number:\n'))
-digit = len(str(number))  ## len() - returns numbers of "symbols" in variable(100 = 3 digits)
+digit = len(str(number))  # len() - returns numbers of "symbols" in variable(100 = 3 digits)
 
 if number < 0:
     digit -= 1
